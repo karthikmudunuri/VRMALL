@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	
+	<meta charset="UTF-8" />
+	<title>VR MALL</title>
+	<link href="./assets/images/unnamed-removebg-preview.png" rel="icon">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+	<div class="loader">
+		<p>Entering into Virtual Mall.......</p>
+		<div class="progress"></div>
+	</div>
+	<nav class="nav--bar">
+		<img class="logo" src="assets/images/unnamed.png" >
+		<button class="button--navbar">ENTER MALL</button>
+	</nav>
+
+	<div class="container">
+		<section class="section first">
+			<div class="section--one--container">
+				<h1>VIRTUAL MALL</h1>
+				<p>Experience the new virtual reality world through one-click.</p>
+				<button class="button--hero">KNOW MORE</button>
+			</div>
+		</section>
+
+		<section class="section second">
+			<div class="section--two--container">
+				<h2>NEW EXPERIENCE</h2>
+				<p>Experience our new virtual mall and customize & Explore the things that u want through our website in a new way </p>
+			</div>
+			<div class="custom--bg"></div>
+		</section>
+
+		<section class="section third">
+			<div class="section--third--container">
+				
+				
+				<button class="button--customize">ENTER THE MALL</button>
+			</div>
+		</section>
+
+		
+	</div>
+
+	<div id="webgi-canvas-container">
+		<canvas id="webgi-canvas"></canvas>
+		<button class="button--customize button--exit">EXIT</button>
+	</div>
+
+	<div class="customizer--container">
+		<ul class="strap--colors">
+			<li class="button--colors yellow"></li>
+			<li class="button--colors red"></li>
+			<li class="button--colors black"></li>
+		</ul>
+	</div>
+
+	<script src="src/index.ts"></script>
+	
+</body>
+
+</html>
