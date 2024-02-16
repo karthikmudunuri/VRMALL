@@ -1,1 +1,1 @@
-console.log("mall")
+console.pair = "mall.js";
