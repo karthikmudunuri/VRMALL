@@ -12,16 +12,10 @@ Then navigate to [http://localhost:1234/index.html](http://localhost:1234/index.
 
 The assets are stored in the `assets` directory.
 
+
 To build the project for production:
 ```bash
 npm run build
 ```
+<img width="1427" alt="Screenshot 2024-05-16 at 11 06 17 PM" src="https://github.com/karthikmudunuri/VRMALL/assets/102793643/786a0383-ea62-4147-b51d-c44a808b2997">
 
-## Documentation
-
-About webgi: [https://webgi.xyz/](https://webgi.xyz/)
-
-For the latest version and documentation: [WebGi Docs](https://webgi.xyz/docs/).
-
-## License 
-For license and terms of use, see the [SDK License](https://webgi.xyz/docs/license).
