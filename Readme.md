@@ -1,5 +1,6 @@
 ## Getting started
-First install the dependencies:
+
+First install the `dependencies`:
 ```bash
 npm install
 ```
